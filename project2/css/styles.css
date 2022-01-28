@@ -3,11 +3,26 @@ body {
 
 }
 
-h1, h2, h3 {
+h1 {
      text-align: center;
-     color: #4C5973;
+     color: black;
+     font-size: xx-large;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-weight: bold;
  }
- 
+h2 {
+    text-align: center;
+    color: black;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    text-align: left;
+    color: black;
+    font-size: small;
+}
+
 #container {
     background-color: #50B4F2;
     width: 50%;
