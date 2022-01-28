@@ -10,21 +10,16 @@ h1, h2, h3 {
  
 #container {
     background-color: #50B4F2;
-    width: 1200px;
+    width: 50%;
     margin: 20px auto;
     border: 4px solid black;
 }
 
 #calendar {
     background-color: #50B4F2;
-    width: 600px;
-    margin: 20px auto;
+    width: 30%;
+    margin: auto;
     border: 4px solid black;
-}
-
-header {
-    background-color: #CEF299;
-    padding: 20px;
 }
 
 img {
@@ -34,14 +29,13 @@ img {
 }
 
 nav {
-    background-color: #CEF299;
-    padding: 10px auto;
     text-align: center;
     margin: 4px auto;
 }
 
 nav a {
     display: inline-block;
+    border: 4px solid black;
     background-color: #4C5973;
     height: 50px;
     width: 200px;
@@ -56,27 +50,7 @@ nav a:hover {
     color: white;
 }
 
-main {
-    background-color: #CEF299;
-    width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 4px solid black;
-}
-
 main img {
     display: block;
     margin: 20px auto;
-    width: 35%;
-    background-color: #4C5973;
-    border-radius: 20px;
-    padding: 20px;
-}
-
-footer {
-    background-color: #CEF299;
-    color: black;
-    padding: 40px;
-    text-align: center;
-    margin-top: 20px;
 }
