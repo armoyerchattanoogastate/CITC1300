@@ -27,7 +27,7 @@ h3 {
 }
 
 #container {
-    background-color: #E8A87C;
+    background-color: #E27D60;
     margin: 20px auto;
     width: 80%;
     border-radius: 10px;
@@ -42,7 +42,7 @@ img {
 nav {
     text-align: center;
     margin: 4px auto;
-    background-color: #E27D60;
+    background-color: #C38D9E;
     padding: 1% 0 0 0;
 }
 
@@ -60,12 +60,12 @@ nav a {
 }
 
 nav a:hover {
-    background-color: black;
+    background-color: #E27D60;
     color: white;
 }
 
 .active {
-    background-color: black;
+    background-color: #E27D60;
     color: white;
 }
 
