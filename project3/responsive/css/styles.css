@@ -1,0 +1,91 @@
+img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #242582;
+    color: #f64c72;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+#container {
+    background-color: #553d67;
+}
+
+header {
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 2px solid #99738e;
+}
+
+.col {
+    border: 2px solid #f64c72;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.col img {
+    width: 65%;
+}
+
+main img {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    border-top: 2px solid #f64c72;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+@media(min-width: 768px) {
+    #container {
+        width: 85%;
+        margin: 20px auto;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    .col {
+        width: 65%;
+        margin: 20px auto;
+    }
+
+    .col img {
+        width: 50%;
+    }
+
+    main img {
+        width: 40%;
+    }
+}
+
+@media(min-width: 1024px) {
+    #flex {
+        display: flex;
+    }
+    
+    #container {
+        width: 65%;
+    }
+
+    .col {
+        margin: 20px;
+    }
+    
+    .col img {
+        width: 35%;
+    }
+
+    main img {
+        width: 15%;
+    }
+}
