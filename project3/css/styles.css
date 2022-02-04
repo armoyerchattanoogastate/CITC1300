@@ -1,0 +1,116 @@
+img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #222222;
+    color: white;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+#container {
+    background-color: black;
+}
+
+header {
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid white;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 125%;
+}
+.col {
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.col img {
+    width: 65%;
+}
+
+main img {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    border-top: 2px solid white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+@media(min-width: 768px) {
+    #container {
+        width: 85%;
+        margin: 20px auto;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2.25em;
+    }
+    .col {
+        width: 65%;
+        margin: 20px auto;
+    }
+
+    p {
+        font-size: 1.75em;
+    }
+
+    .col img {
+        width: 50%;
+    }
+
+    main img {
+        width: 40%;
+    }
+}
+
+@media(min-width: 1024px) {
+    #flex {
+        display: flex;
+    }
+    
+    #container {
+        width: 65%;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 1em;
+    }
+    .col {
+        margin: 20px;
+    }
+    
+    .col img {
+        width: 50%;
+    }
+
+    main img {
+        width: 15%;
+    }
+}
