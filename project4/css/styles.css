@@ -26,7 +26,7 @@ header {
 }
 
 header h1 {
-    color: #c26335;
+    color: #a33c46;
     text-shadow: 5px 5px 5px #000;
     text-align: center;
 }
@@ -66,7 +66,7 @@ nav, section, aside, .col, footer {
     border-radius: 10px;
 }
 
-h2, h3 {
+h2 {
     color: #ae4a7f;
     text-shadow: 2px 2px 2px #000;
     font-size: 1.5em;
@@ -74,6 +74,16 @@ h2, h3 {
     font-family: 'Audiowide', cursive;
 }
 
+h3 {
+    color: #ae4a7f;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+}
+p {
+    text-align: center;
+}
 section img, aside img {
     width: 65%;
 }
@@ -100,10 +110,6 @@ section img, aside img {
 footer {
     text-align: center;
     color: #c26335;
-}
-
-.single_col {
-    width: 83%;
 }
 
 audio, video {
@@ -183,7 +189,7 @@ table {
 @media(min-width:1024px){
 
     #container {
-        width: 75%;
+        width: 85%;
         margin: 20px auto;
         border: 4px solid #f2ac23;
         border-radius: 20px;
