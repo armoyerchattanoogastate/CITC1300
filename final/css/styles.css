@@ -1,0 +1,241 @@
+/* Global Styles */
+body {
+    font-family: 'Alegreya', serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#container {
+    margin: auto;
+}
+
+header {
+    background-image: url('../images/bloodborne.gif');
+    background-size: cover;
+    padding: 278px 0;
+    font-family: 'Cinzel', serif;
+}
+
+header h1 {
+    text-shadow: 2px 2px 2px #000;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #a33c46;
+    color: #b0976d;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: #d53835;
+    text-shadow: 2px 2px 2px #000;
+}
+
+nav, section, aside, .col, footer {
+    background-color: #edd655;
+    padding: 20px;
+    margin: 10px;
+    border: 4px solid #f0f19c;
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: 'Faustina', serif;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h3 {
+    text-shadow: 2px 2px 2px #000;
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Faustina', serif;
+}
+
+p {
+    text-align: center;
+}
+
+section img, aside img {
+    width: 65%;
+}
+
+.button {
+    display: block;
+    background-color: #a33c46;
+    color: #b0976d;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #d53835;
+    text-shadow: 2px 2px 2px #000;
+}
+
+footer {
+    text-align: center;
+    color: #c26335;
+}
+
+/* End Global Styles */
+
+/* Mobile Styles */
+audio, video {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+.gallery_img {
+    border: 4px solid #655253;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+table {
+    display: none;
+}
+/* End Mobile Styles */
+
+/* Tablet Styles */
+@media(min-width: 768px) {
+    header {
+        padding: 125px;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    nav {
+        text-align: center;
+        padding: 5px;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        height: 50px;
+        line-height: 50px;
+        width: 200px;
+    }
+
+    #upper_flex {
+        display: flex;
+    }
+    
+    section, aside {
+        width: 50%;
+    }
+
+    aside img {
+        width: 50%;
+    }
+
+    .col img {
+        width: 60%;
+        border-radius: 10px;
+        border: 4px solid #f2ac23;
+    }
+
+    .single_col {
+        width: 95%;
+    }
+}
+/* End Tablet Styles */
+
+/* Desktop Styles */
+@media(min-width:1024px){
+
+    #container {
+        width: 85%;
+        margin: 20px auto;
+        border: 4px solid #f2ac23;
+        border-radius: 20px;
+    }
+
+    header {
+        border-radius: 20px 20px 0 0;
+    }
+
+    nav li a {
+        margin: 0 20px;
+    }
+
+    #lower_flex {
+        display: flex;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .col img {
+        width: 100%;
+    }
+
+    .single_col {
+        width: 100%;
+    }
+
+    table {
+        border: 4px solid #a33c46;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    tr, td {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    table img {
+        width: 100%;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    table {
+        display: block;
+    }
+}
+/* End Desktop Styles */
