@@ -19,6 +19,8 @@ header {
     background-size: cover;
     padding: 278px 0;
     font-family: 'Cinzel', serif;
+    background-position: center;
+      
 }
 
 header h1 {
@@ -240,6 +242,9 @@ table {
 
     table {
         display: block;
+    }
+    .table_img {
+        width: 45%;
     }
 }
 /* End Desktop Styles */
