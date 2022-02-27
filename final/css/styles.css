@@ -142,6 +142,7 @@ audio, video {
 iframe {
     display: block;
     margin: 20px auto;
+    border: none;
 }
 
 .gallery_img {
@@ -222,7 +223,7 @@ table {
         margin: 0 20px;
     }
 
-    #lower_flex {
+    #lower_flex, #lower_flex2, #lower_flex3, #lower_flex4, #lower_flex5, #lower_flex6 {
         display: flex;
     }
 
