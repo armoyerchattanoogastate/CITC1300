@@ -37,13 +37,6 @@ header {
     padding: 278px 0;
     font-family: 'Cinzel', serif;
     background-position: center;
-      
-}
-
-header h1 {
-    text-shadow: 2px 2px 2px #000;
-    color: white;
-    text-align: center;
 }
 
 nav ul {
@@ -81,17 +74,24 @@ nav, section, aside, .col, footer {
     border-radius: 10px;
 }
 
+h1 {
+    text-shadow: 2px 2px 2px #000;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+
 h2 {
     font-family: 'Faustina', serif;
     text-shadow: 2px 2px 2px #000;
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
     color: #7f3335;
 }
 
 h3 {
     text-shadow: 2px 2px 2px #000;
-    font-size: 1em;
+    font-size: 1.5em;
     text-align: center;
     font-family: 'Faustina', serif;
     color: #9a1818;
@@ -100,6 +100,7 @@ h3 {
 p {
     text-align: center;
     color: #c26335;
+    font-size: 1.25em;
 }
 
 section img, aside img {
@@ -162,10 +163,6 @@ table {
         padding: 125px;
     }
 
-    header h1 {
-        font-size: 3em;
-    }
-
     nav {
         text-align: center;
         padding: 5px;
@@ -218,7 +215,9 @@ table {
     header {
         border-radius: 20px 20px 0 0;
     }
-
+h1 {
+    font-size: 5em;
+}
     nav li a {
         margin: 0 20px;
     }
